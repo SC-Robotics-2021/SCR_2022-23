@@ -1,5 +1,3 @@
-# Autonomy Documentation
-
 # Previous Systems
 - [Previous project board](https://github.com/orgs/SC-Robotics-2021/projects/5)
 - [osiris hardware](https://github.com/SC-Robotics-2021/osiris_hardware)
