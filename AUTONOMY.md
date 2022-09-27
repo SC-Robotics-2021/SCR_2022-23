@@ -18,15 +18,21 @@
 - SLAM and VSLAM
 
 # New System Notes
-
+### ROS2
+- Using ROS2 Architecture and Python to speak with Raspberry PIs and other sensors.
+### NVIDIA Jetson
+- NVIDIA Jetson: Embedded computing board designed for AI computations. (Current: NVIDIA Jetson AGX Xavier)
+- NVIDIA Jetpack: SDK for development.
+- NVIDIA Jetson Linux: OS for Jetson.
+### ZED Camera
+- Stereolabs ZED camera: Camera for depth sensing and AI application. Has many other sensors built in.
+- For ZED camera to work with ROS2: ZED ROS2 Wrapper.
 
 # Autonomy Goal Notes:
 Rover will have a starting gps coordinate.
 Rover to move to given gps coordinate.
 Read AR codes along path to find next gps coordinates.
 Need to avoid obstacles and have dynamic drive system. But generally stay on path to next gps coordinate.
-
-Need Jetson power supply: 19V, 4.74A, 90W, outer negative, inner positive
 
 # Comments
 - Osiris's implementation was with using ros2 while Valk's system was a bit barebone. Need to investigate and integrate both systems into 1 or start fresh.
