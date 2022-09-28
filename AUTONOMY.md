@@ -26,7 +26,6 @@
 - NVIDIA Jetson Linux: OS for Jetson.
 ### ZED Camera
 - Stereolabs ZED camera: Camera for depth sensing and AI application. Has many other sensors built in.
-- For ZED camera to work with ROS2: ZED ROS2 Wrapper.
 
 # Autonomy Goal Notes:
 Rover will have a starting gps coordinate.
@@ -42,7 +41,7 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 1. Install [Jetson SDK Manager](https://developer.nvidia.com/nvidia-sdk-manager)
 2. Use Jetson SDK Manager to flash Jetson Xavier with [JetPack 5.0.2 SDK manager](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html)
   *note: Jetson should be connected to computer w/ SDK manager installed, presumably over USB-C
-	*note: JetPack 5.0.2 uses Jetson Linux, which has an Ubuntu 20.04 Desktop environment file system. This should hopefully play well with ROS2
+  *note: JetPack 5.0.2 uses Jetson Linux, which has an Ubuntu 20.04 Desktop environment file system. This should hopefully play well with ROS2
   *note: JetPack 5.0.2 documentation says Jetpack includes CUDA 11.4. This should hopefully play well with ZED and ROS2
 ### The following instructions are to be completed on the Jetson Xavier
 3. install ZED SDK for L4T 35.1 (Jetpack 5.0) 3.7.7 to allow use of ZED camera by jetson [link](https://www.stereolabs.com/developers/release/)
@@ -53,5 +52,3 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 ### Tutorial to help with install
 (for step 2) Install [Jetson Software with SDK Manager](https://www.stereolabs.com/developers/release/)
 (for step 3) Install [ZED SDK on Nvidia Jetson](https://www.stereolabs.com/docs/installation/jetson/)
-
-
