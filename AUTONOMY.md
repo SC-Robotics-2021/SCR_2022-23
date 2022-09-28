@@ -44,11 +44,20 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 - note: JetPack 5.0.2 uses Jetson Linux, which has an Ubuntu 20.04 Desktop environment file system. This should hopefully play well with ROS2
 - note: JetPack 5.0.2 documentation says Jetpack includes CUDA 11.4. This should hopefully play well with ZED and ROS2
 ### The following instructions are to be completed on the Jetson Xavier
-3. install ZED SDK for L4T 35.1 (Jetpack 5.0) 3.7.7 to allow use of ZED camera by jetson [link](https://www.stereolabs.com/developers/release/)
-4. install [ROS2 Foxy Fitzroy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#)
-5. install zed_ros2_wrapper using ROS2 colcon to allow ZED to be controlled by ROS2 [link](https://www.stereolabs.com/docs/ros2/)
-4. Visit NVIDIA Isaac ROS's github to find packages for different autonomy systems [link](https://github.com/NVIDIA-ISAAC-ROS)
+3. install [ZED SDK for L4T 35.1 (Jetpack 5.0) 3.7.7](https://www.stereolabs.com/developers/release/) to allow use of ZED camera by jetson
+6. Install [docker](https://docs.docker.com/engine/install/ubuntu/)
+4. install [ROS2 Foxy Fitzroy]([https://github.com/NVIDIA-AI-IOT/ros2_jetson/tree/main/docker](https://github.com/dusty-nv/jetson-containers#ros-containers)) docker container
+- note: it seems like Nvidia Isaac might require ROS2 humble, more details below. If you're not sure yet how to proceed, this would be a good time to pause and do more research. 
+6. install [zed_ros2_wrapper](https://www.stereolabs.com/docs/ros2/) using ROS2 colcon to allow ZED to be controlled by ROS2
+7. Add external storage device to jetson to give it at least 30GB of capacity (necessary for Isaac ROS Development Environment)
+8. Set up [Isaac ROS Development Environment](https://github.com/SC-Robotics-2021/valk_2022-23/edit/master/AUTONOMY.md)
 
 ### Tutorial to help with install
 - (for step 2) Install [Jetson Software with SDK Manager](https://www.stereolabs.com/developers/release/)
 - (for step 3) Install [ZED SDK on Nvidia Jetson](https://www.stereolabs.com/docs/installation/jetson/)
+
+### Useful Repos from [NVIDIA Isaac ROS's github](https://github.com/NVIDIA-ISAAC-ROS), and support for said repos
+- [Apriltag](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag) Detect AprilTag images, VERY useful for rover project. ONLY supported by ROS2 Humble
+- [Argus Camera](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_argus_camera) Allows use and data transfer of cameras. ONLY supported by ROS2 Humble
+- [NITROS](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros) Hardware acceleration, only availible w/ ROS2 Humble
+- [ROS2 Support on NVIDIA Jetson](https://nvidia-ai-iot.github.io/ros2_jetson/) this document has ltos of links on jetson support. It says everything is compatible with ros2 foxy, however the repos linked contradict this. My guess is when NVIDIA updated their repos to support NITROS hardware acceleration, they also 
