@@ -36,3 +36,20 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 
 # Comments
 - Osiris's implementation was with using ros2 while Valk's system was a bit barebone. Need to investigate and integrate both systems into 1 or start fresh.
+
+# Steps to set up Jetson AGX Xavier for Autonomy
+### The following instructions are to be completed on an x86 computer w/ ubuntu 16.04,18.04, or 20.04
+1. Install [Jetson SDK Manager](https://developer.nvidia.com/nvidia-sdk-manager)
+2. Use Jetson SDK Manager to flash Jetson Xavier with [JetPack 5.0.2 SDK manager](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html)
+  *note: Jetson should be connected to computer w/ SDK manager installed, presumably over USB-C
+	*note: JetPack 5.0.2 uses Jetson Linux, which has an Ubuntu 20.04 Desktop environment file system. This should hopefully play well with ROS2
+  *note: JetPack 5.0.2 documentation says Jetpack includes CUDA 11.4. This should hopefully play well with ZED and ROS2
+### The following instructions are to be completed on the Jetson Xavier
+3. install ZED SDK for L4T 35.1 (Jetpack 5.0) 3.7.7 to allow use of ZED camera by jetson [link](https://www.stereolabs.com/developers/release/)
+4. install [ROS2 Foxy Fitzroy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#)
+5. install zed_ros2_wrapper using ROS2 colcon to allow ZED to be controlled by ROS2 [link](https://www.stereolabs.com/docs/ros2/)
+4. Visit NVIDIA Isaac ROS's github to find packages for different autonomy systems [link](https://github.com/NVIDIA-ISAAC-ROS)
+
+### Tutorial to help with install
+(for step 2) Install [Jetson Software with SDK Manager](https://www.stereolabs.com/developers/release/)
+(for step 3) Install [ZED SDK on Nvidia Jetson](https://www.stereolabs.com/docs/installation/jetson/)
