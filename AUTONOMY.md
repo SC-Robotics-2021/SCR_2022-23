@@ -51,4 +51,5 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 
 ### Tutorial to help with install
 (for step 2) Install [Jetson Software with SDK Manager](https://www.stereolabs.com/developers/release/)
+
 (for step 3) Install [ZED SDK on Nvidia Jetson](https://www.stereolabs.com/docs/installation/jetson/)
