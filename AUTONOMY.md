@@ -45,12 +45,12 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 - note: JetPack 5.0.2 documentation says Jetpack includes CUDA 11.4. This should hopefully play well with ZED and ROS2
 ### The following instructions are to be completed on the Jetson Xavier
 3. install [ZED SDK for L4T 35.1 (Jetpack 5.0) 3.7.7](https://www.stereolabs.com/developers/release/) to allow use of ZED camera by jetson
-6. Install [docker](https://docs.docker.com/engine/install/ubuntu/)
+6. Install [docker](https://docs.docker.com/engine/install/ubuntu/), check if already installed first
 4. install [ROS2 Foxy Fitzroy]([https://github.com/NVIDIA-AI-IOT/ros2_jetson/tree/main/docker](https://github.com/dusty-nv/jetson-containers#ros-containers)) docker container
 - note: it seems like Nvidia Isaac might require ROS2 humble, more details below. If you're not sure yet how to proceed, this would be a good time to pause and do more research. 
-6. install [zed_ros2_wrapper](https://www.stereolabs.com/docs/ros2/) using ROS2 colcon to allow ZED to be controlled by ROS2
-7. Add external storage device to jetson to give it at least 30GB of capacity (necessary for Isaac ROS Development Environment)
-8. Set up [Isaac ROS Development Environment](https://github.com/SC-Robotics-2021/valk_2022-23/edit/master/AUTONOMY.md)
+5. install [zed_ros2_wrapper](https://www.stereolabs.com/docs/ros2/) using ROS2 colcon to allow ZED to be controlled by ROS2
+6. Add external storage device to jetson to give it at least 30GB of capacity (necessary for Isaac ROS Development Environment)
+7. Set up [Isaac ROS Development Environment](https://github.com/SC-Robotics-2021/valk_2022-23/edit/master/AUTONOMY.md)
 
 ### Tutorial to help with install
 - (for step 2) Install [Jetson Software with SDK Manager](https://www.stereolabs.com/developers/release/)
