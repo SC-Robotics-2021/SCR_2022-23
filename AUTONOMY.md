@@ -57,7 +57,7 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 - (for step 3) Install [ZED SDK on Nvidia Jetson](https://www.stereolabs.com/docs/installation/jetson/)
 
 ### Useful Repos from [NVIDIA Isaac ROS's github](https://github.com/NVIDIA-ISAAC-ROS), and support for said repos
+- [ROS2 Support on NVIDIA Jetson](https://nvidia-ai-iot.github.io/ros2_jetson/) this document has lots of links on jetson support. It says everything is compatible with ros2 foxy, however the repos linked contradict this. My guess is when NVIDIA updated their repos to support NITROS hardware acceleration, they used features in Humble not availible in Foxy. I believe this website is out of date, and Nvidia Isaac no longer supports Foxy
 - [Apriltag](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag) Detect AprilTag images, VERY useful for rover project. ONLY supported by ROS2 Humble
 - [Argus Camera](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_argus_camera) Allows use and data transfer of cameras. ONLY supported by ROS2 Humble
 - [NITROS](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros) Hardware acceleration, only availible w/ ROS2 Humble
-- [ROS2 Support on NVIDIA Jetson](https://nvidia-ai-iot.github.io/ros2_jetson/) this document has ltos of links on jetson support. It says everything is compatible with ros2 foxy, however the repos linked contradict this. My guess is when NVIDIA updated their repos to support NITROS hardware acceleration, they also 
