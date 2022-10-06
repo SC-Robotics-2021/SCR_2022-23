@@ -44,3 +44,7 @@ Once you set up everything on your local network, all the raspberry pi’s on yo
 If you look at the rover, all the pis are connected to a switch and the antennas are also connected to that switch
 Once everything is set up, your last touch is to use ROS domain to set all the nodes that’re communicating with each other one the same domain
 So the messages get across, and goes to the correct node
+
+
+## Ymir static ip address
+192.168.1.120
