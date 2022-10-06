@@ -29,3 +29,18 @@ ask we how to do all of this if you had a problem, but
 essentially, once you hook up the antennas into your
 local network with your chosen gateway, they then
 have an ip address and so you can send commands
+
+
+# Drive feed
+So yes the Odrives were connected to the fenrir
+The camera feeds go from Zed to a pi, to the antenna, to your another antenna in the base station, to your code (Qt is used here)
+You’d be using camera transmitters if you’re not going with the zed camera
+Haeri knows how to set them up
+It’s fairly simple
+But if you decide to you with the zed, I highly encourage you to have a 5ghz antenna on the rover and get the camera feed into a pi or Xavier
+This is the flow:
+Camera streams -> pi or Xavier -> 5 ghz antenna on the rover -> 5ghz antenna on the base station -> another machine (someone’s PC)
+Once you set up everything on your local network, all the raspberry pi’s on your rover should be visible from your local machine
+If you look at the rover, all the pis are connected to a switch and the antennas are also connected to that switch
+Once everything is set up, your last touch is to use ROS domain to set all the nodes that’re communicating with each other one the same domain
+So the messages get across, and goes to the correct node
