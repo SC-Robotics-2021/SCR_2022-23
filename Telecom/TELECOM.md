@@ -1,3 +1,5 @@
+# Need to revise & format this page
+
 So just to give you an overview, we have 2
 communication systems on the rover
 2.4 ghz for small data and long ranges, and 5 ghz for
@@ -48,3 +50,7 @@ So the messages get across, and goes to the correct node
 
 ## Ymir static ip address
 192.168.1.120
+
+
+## Set-up 
+https://docs.google.com/document/d/1vr03kDDL_s_B2WyPbN4qNAjE8rEJLGopE-6Ka7-C4K8/edit
