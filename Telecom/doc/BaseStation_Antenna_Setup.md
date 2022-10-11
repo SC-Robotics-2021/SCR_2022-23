@@ -1,4 +1,5 @@
 # Base Station & Antenna Setup
+## Setup
 Set up antennas on the rover / base station
 - First login Rocket M3, airOs, and set up the antennas.
 ![](../img/loginRocket.png)
@@ -35,3 +36,12 @@ Set up antennas on the rover / base station
     + **NOTE:**
     + Ymir (Raspberry Pi) is hooked up to a switch, which is hooked up to a antenna. See Diagram for more details.
     + Your machine should be hooked up to the base station antenna, and you should be able to ssh into Ymir through the other antenna.
+
+
+## Additional Resources
+### Tools:
+- **UBNT:** [How to set up RocketM3](https://dl.ubnt.com/qsg/RocketM-Series/RocketM-Series_EN.html)
+- **DL.UI:** [How to set up BulletAC-IP67](https://dl.ui.com/qsg/BulletAC-IP67/BulletAC-IP67_EN.html)
+ 
+### Antenna:
+- **ANTENNA-THEORY:** [What is Antenna Gain](https://antenna-theory.com/basics/gain.php)
