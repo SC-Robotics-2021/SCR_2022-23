@@ -18,19 +18,18 @@
 ---------------------
 ## Telecom System Documentation
 
-#### Pi Gateway Setup
+### Pi Gateway Setup
 
-#### Anntena Setup
+### [Base Station & Anntena Setup](doc/BaseStation_Antenna_Setup.md)
+- Setting up the Rocket M3 antennas on the rover / base station & bridging point to point connection between 2 antennas.
 
-#### Base Station Setup
+### Telecom System Diagram
 
-#### Telecom System Diagram
+### Hardware Requirements
 
-#### Hardware Requirements
+### Software/Dependencies Requirements
 
-#### Software/Dependencies Requirements
-
-#### Backup
+### Backup
 
 
 
