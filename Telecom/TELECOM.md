@@ -17,21 +17,22 @@
 
 ---------------------
 ## Telecom System Documentation
+### [Pi Gateway Setup](doc/Pi_Gateway_Setup.md)
 
-### Pi Gateway Setup
 
 ### [Base Station & Anntena Setup](doc/BaseStation_Antenna_Setup.md)
 - Setting up the Rocket M3 antennas on the rover / base station & bridging point to point connection between 2 antennas.
 
-### Telecom System Diagram
 
-### Hardware Requirements
-
-### Software/Dependencies Requirements
-
-### Backup
+### [Telecom System Diagram](doc/Diagram.md)
 
 
+### [Hardware Requirements](doc/Hardware.md)
 
----------------------
-https://docs.google.com/document/d/1vr03kDDL_s_B2WyPbN4qNAjE8rEJLGopE-6Ka7-C4K8/edit
+
+### [Software/Dependencies Requirements](doc/Software&Dependencies.md)
+
+
+### [Backup](backup/backup_data.md)
+- Backup in the event that Telecom/Ymir's SD card fails/corrupts/broke.
+- This has a img of the Telecom SD card used as the gateway.
