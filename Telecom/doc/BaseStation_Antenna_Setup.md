@@ -36,6 +36,7 @@ Set up antennas on the rover / base station
     + **NOTE:**
     + Ymir (Raspberry Pi) is hooked up to a switch, which is hooked up to a antenna. See Diagram for more details.
     + Your machine should be hooked up to the base station antenna, and you should be able to ssh into Ymir through the other antenna.
+    + You can do `arp -a` on Ymir (not on your local machine - `ssh` into Ymir) to see all the other Pis' IP addresses (that are hooked up to a switch).
 
 
 ## Additional Resources
