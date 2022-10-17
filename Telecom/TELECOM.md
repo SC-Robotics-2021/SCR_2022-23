@@ -38,10 +38,6 @@
 - Hardware requirements for the telecom system.
 <br/>
 
-### [Software/Dependencies Requirements](doc/Software&Dependencies.md)
-- Software/dependencies requirements for the telecom system.
-<br/>
-
 ### [Backup](backup/backup_data.md)
 - Backup in the event that Telecom/Ymir's SD card fails/corrupts/broke.
 - This has a img of the Telecom SD card used as the gateway.
