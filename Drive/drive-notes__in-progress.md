@@ -58,6 +58,12 @@ odrv0.axis0.requested_state = AXIS_STATE_ENCODER_OFFSET_CALIBRATION
 ```
 odrv0.axis0.encoder.config.pre_calibrated = True
 ```
+```
+odrv0.axis0.controller.input_vel = 3
+```
+```
+odrv0.axis0.requested_state = AXIS_STATE_CLOSED_LOOP_CONTROL
+```
 ---
 ```
 odrv0.axis1.requested_state = AXIS_STATE_MOTOR_CALIBRATION
