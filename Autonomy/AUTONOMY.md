@@ -20,13 +20,27 @@
 # New System Notes
 -[Software and Hardware Stack Compatibility Matrix](https://docs.google.com/spreadsheets/d/1t-nCCwkkZQgr5q8uTV1uusqkHtPhM9K14CyHfFUXnlk/edit?usp=sharing)
 ### ROS2
-- Using ROS2 Architecture and Python to speak with Raspberry PIs and other sensors.
+- Using ROS2 Architecture and Python to speak with Raspberry Pis and other sensors.
+- Using ROS2: Humble.
 ### NVIDIA Jetson
-- NVIDIA Jetson: Embedded computing board designed for AI computations. (Current: NVIDIA Jetson AGX Xavier)
+- NVIDIA Jetson: Embedded computing board designed for AI computations. (Current: NVIDIA Jetson AGX Orin)
 - NVIDIA Jetpack: SDK for development.
 - NVIDIA Jetson Linux: OS for Jetson.
 ### ZED Camera
-- Stereolabs ZED camera: Camera for depth sensing and AI application. Has many other sensors built in.
+- Stereolabs ZED2i camera: Depth camera, has IMU and gyro.
+### Intel RealSense Camera
+- (Full Camera Name): Depth camera, (list sensors).
+### NVIDIA ISAAC ROS2 Autonomy Packages
+- Packages to help with autonomy. AprilTags, VSLAM, etc.
+### GPS
+- (List GPS Name)
+### Lidar
+- RPLidar (Find full name)
+- Measures distances around the sensor.
+### Raspberry Pis
+- Mini computer.
+- Have a Pi for each system to easily swap out if breaks.
+- OS: Ubuntu Server or Raspberry Pi OS (Raspbian). (Depending on use of Pi)
 
 # Autonomy Goal Notes:
 Rover will have a starting gps coordinate.
