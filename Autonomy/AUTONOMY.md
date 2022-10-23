@@ -18,6 +18,7 @@
 - SLAM and VSLAM
 
 # New System Notes
+-[Software and Hardware Stack Compatibility Matrix](https://docs.google.com/spreadsheets/d/1t-nCCwkkZQgr5q8uTV1uusqkHtPhM9K14CyHfFUXnlk/edit?usp=sharing)
 ### ROS2
 - Using ROS2 Architecture and Python to speak with Raspberry PIs and other sensors.
 ### NVIDIA Jetson
