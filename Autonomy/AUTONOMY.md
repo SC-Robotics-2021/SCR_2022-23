@@ -19,6 +19,9 @@
 
 # New System Notes
 -[Software and Hardware Stack Compatibility Matrix](https://docs.google.com/spreadsheets/d/1t-nCCwkkZQgr5q8uTV1uusqkHtPhM9K14CyHfFUXnlk/edit?usp=sharing)
+## Temp software list for NVIDIA ISAAC ROS
+ - https://github.com/NVIDIA/nvidia-docker
+ - https://developer.nvidia.com/cuda-downloads
 ### ROS2
 - Using ROS2 Architecture and Python to speak with Raspberry Pis and other sensors.
 - Using ROS2: Humble.
@@ -48,8 +51,7 @@ Rover to move to given gps coordinate.
 Read AR codes along path to find next gps coordinates.
 Need to avoid obstacles and have dynamic drive system. But generally stay on path to next gps coordinate.
 
-# Temp software list for NVIDIA ISAAC ROS
- - https://github.com/NVIDIA/nvidia-docker
+
 
 # Comments
 - Osiris's implementation was with using ros2 while Valk's system was a bit barebone. Need to investigate and integrate both systems into 1 or start fresh.
