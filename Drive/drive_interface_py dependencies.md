@@ -8,6 +8,9 @@ colcon build
 ```
 . install/setup.bash
 ```
+```
+source /opt/ros/foxy/setup.sh
+```
 
 # Then use pip install:
 
