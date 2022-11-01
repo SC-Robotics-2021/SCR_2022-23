@@ -1,4 +1,4 @@
-# Hardware used for SCR 2022-23 Telecom:
+# Hardware used in SCR 2022-23 Telecom:
 - **[ 1x ]** [Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) `will be used as the gateway`
     + *Flashed with [Raspberry Pi OS (64-bit) - Port of Debian Bullseye](https://www.raspberrypi.com/software/)*
     + *Check [Software/Dependencies Requirements](Software&Dependencies.md) for more info*
@@ -14,6 +14,10 @@
 
 
 - **[ 1x ]** [UBIQUITI - airMAX Omni 5 GHz, 13 dBi Antenna | Model AMO-5G13](https://store.ui.com/collections/operator-airmax-and-ltu-antennas/products/5ghz-airmax-omni-13dbi-rocket-kit) `5 GHz antenna`
+<br/><br/>
+
+
+- **[ 1x ]** [UISP airMAX Bullet AC Dual-Band IP67 Radio](https://store.ui.com/collections/operator-airmax-devices/products/bullet-ac-ip67-1) `2.4 / 5 GHz antenna`
 <br/><br/>
 
 

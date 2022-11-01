@@ -19,6 +19,30 @@
 
 - Below are detailed instructions, documentation, and resources to help you setup, test, trouble shoot, and use the telecom system.
 <br/>
+---------------------
+## Passwords:
+- **ALL Rocket M3:** 
+    + `username`: `ubnt`
+    + `password`: `rpi_rover`
+
+- **Bullet ACIP67:**
+    + `username`: `ubnt_bulletac`
+    + `password`: `rpi_rover123`
+
+- **Ymir (Raspberry Pi):**
+    + `username`: `pi`
+    + `hostname`: `ymir`
+    + `password`: `rpi_rover`
+    + `static ip`: `192.168.1.120`
+    + Note: Either connect to `Ymir` using either
+    ```
+    ssh pi@ymir.local
+    ``` 
+    ```
+    ssh pi@192.168.1.120
+    ```
+    + Just make sure both antennas are connected, see [diagram](doc/Diagram.md)
+
 
 ---------------------
 ## Telecom System Documentation

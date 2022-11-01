@@ -1,5 +1,5 @@
 # Base Station & Antenna Setup
-## Setup
+## Setup for Rocket M3 Base Station & Antenna
 Set up antennas on the rover / base station
 - First login Rocket M3, airOs, and set up the antennas.
 ![](../img/loginRocket.png)
@@ -51,6 +51,12 @@ Set up antennas on the rover / base station
     + You can do `arp -a` on Ymir (not on your local machine - `ssh` into Ymir) to see all the other Pis' IP addresses (that are hooked up to a switch).
 <br/><br/>
 
+----------------
+## Setup for 2.4 GHz Bullet ACIP67
+
+
+
+<br/><br/>
 
 ## Additional Resources
 ### Tools:
