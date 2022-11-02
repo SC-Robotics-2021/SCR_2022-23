@@ -25,7 +25,19 @@
     + `username`: `ubnt`
     + `password`: `rpi_rover`
 
+- **Bullet AC:**
+    + Used for base station. 
+    + Base 5 MHz: 192.168.1.29 (MAC ID: B2C6)
+    + `username`: `ubnt_bulletac_base5`
+    + `password`: `rpi_rover123`
+    + Base 2.4 MHz: 192.168.1.28 (MAC ID: 7257)
+    + `username`: `ubnt_bulletac_base2`
+    + `password`: `rpi_rover123`
+
 - **Bullet ACIP67:**
+    + Used for access point, use same username and password
+    + AP 5 MHz: 192.168.1.27 (MAC ID: 4440)
+    + AP 2.4 MHz: 192.168.1.26 (MAC ID: 4502)
     + `username`: `ubnt_bulletac`
     + `password`: `rpi_rover123`
 
