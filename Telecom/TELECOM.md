@@ -19,7 +19,7 @@
 
 - Below are detailed instructions, documentation, and resources to help you setup, test, trouble shoot, and use the telecom system.
 <br/>
----------------------
+
 ## Passwords:
 - **ALL Rocket M3:** 
     + `username`: `ubnt`
