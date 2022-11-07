@@ -1,0 +1,10 @@
+Jetson Info:
+username: ubuntu_orin
+password: rpi_rover123
+hostname: ubuntuorin
+
+To connect to the orin (HEADLESS):
+Follow the steps within the link https://developer.nvidia.com/embedded/learn/get-started-jetson-agx-orin-devkit#instructions
+UP UNTIL the step: "Complete this CUI-based "Jetson Initial configuration" (oem-config) using your PC's keyboard." (It's already been configured)
+
+We're in.
