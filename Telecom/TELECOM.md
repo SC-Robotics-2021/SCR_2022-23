@@ -26,6 +26,8 @@
     + MAC ID: 245A4C0821C3
     + `username`: `ubnt`
     + `password`: `rpi_rover123`
+
+- **Rocket M5 (base station for 5):**
     
 - **ALL Rocket M3:** 
     + `username`: `ubnt`
