@@ -21,6 +21,12 @@
 <br/>
 
 ## Passwords:
+- **Prism 2AC (base station for 2.4?):**
+    + 192.168.1.30
+    + MAC ID: 245A4C0821C3
+    + `username`: `ubnt`
+    + `password`: `rpi_rover123`
+    
 - **ALL Rocket M3:** 
     + `username`: `ubnt`
     + `password`: `rpi_rover`
