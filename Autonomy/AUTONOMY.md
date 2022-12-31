@@ -86,14 +86,14 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 - Need Nvidia GPU
 - Install nvidia-docker2: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
 - Install Nvidia cuda toolkit: https://developer.nvidia.com/cuda-toolkit
- - Nvidia cuda toolkit I think also will install the nvidia driver, so you may not have to do next step.
+  - Nvidia cuda toolkit I think also will install the nvidia driver, so you may not have to do next step.
 - Make sure you have updated nvidia driver 
- - Check for recommended driver: 
+  - Check for recommended driver: 
 
-       ubuntu-drivers devices
+        ubuntu-drivers devices
        
- - Install recommended driver **OR** Choose which to install
+  - Install recommended driver **OR** Choose which to install
 
-       sudo ubuntu-drivers autoinstall
-       sudo apt install nvidia-<driver number>
+        sudo ubuntu-drivers autoinstall
+        sudo apt install nvidia-<driver number>
     
