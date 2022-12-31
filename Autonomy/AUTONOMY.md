@@ -81,3 +81,17 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 - [Apriltag](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag) Detect AprilTag images, VERY useful for rover project. ONLY supported by ROS2 Humble
 - [Argus Camera](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_argus_camera) Allows use and data transfer of cameras. ONLY supported by ROS2 Humble
 - [NITROS](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros) Hardware acceleration, only availible w/ ROS2 Humble
+
+# Test Nvidia Isaac packages on common PC
+- Need Nvidia GPU
+- Install nvidia-docker2: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
+- Make sure you have updated nvidia driver 
+ - Check for recommended driver: 
+
+       ubuntu-drivers devices
+
+ - Install recommended driver **OR** Choose which to install
+
+       sudo ubuntu-drivers autoinstall
+       sudo apt install nvidia-<driver number>
+    
