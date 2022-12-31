@@ -106,4 +106,4 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
       sudo apt-get remove --purge '^nvidia-.*'
       sudo apt-get remove --purge '^libnvidia-.*'
       sudo apt-get remove --purge '^cuda-.*'
-- If you ever get a cmake error `Specify CUDA_TOOLKIT_ROOT_DIR` or having to do with `CUDA` the Nvidia driver or the cuda toolkit is probably not installed correctly.
+- If you ever get a cmake error `Specify CUDA_TOOLKIT_ROOT_DIR` or having to do with `CUDA`, the Nvidia driver or the cuda toolkit is probably not installed correctly.
