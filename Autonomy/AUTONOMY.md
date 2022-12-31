@@ -86,14 +86,23 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 - Need Nvidia GPU
 - Install nvidia-docker2: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
 - Install Nvidia cuda toolkit: https://developer.nvidia.com/cuda-toolkit
-  - Nvidia cuda toolkit I think also will install the nvidia driver, so you may not have to do next step.
-- Make sure you have updated nvidia driver 
+  - **Nvidia cuda toolkit I think also will install the nvidia driver, so you may not have to manually install driver**
+- To make sure you have updated nvidia driver 
   - Check for recommended driver: 
 
         ubuntu-drivers devices
        
-  - Install recommended driver **OR** Choose which to install
+  - Install recommended driver **OR** Choose which to install. (I used the non-open driver because open was not letting Ubuntu shutdown correctly, and was not getting hdmi output for external screen).
 
         sudo ubuntu-drivers autoinstall
         sudo apt install nvidia-<driver number>
-    
+- Make sure to restart after installing drivers!
+- Check these things:
+  - Make sure the application 'Nvidia X Server' shows your GPU name and info.
+  - Make sure you can run `nvidia-smi` command in terminal. It should show you driver info.
+- If you are in a situation where you need to remove all nvidia drivers and tools, run these commands, then reboot:
+
+      sudo apt-get remove --purge '^nvidia-.*'
+      sudo apt-get remove --purge '^libnvidia-.*'
+      sudo apt-get remove --purge '^cuda-.*'
+- If you get a cmake error having to do with `Specify CUDA_TOOLKIT_ROOT_DIR`, you should not have to manually set the variable, it should work if cuda toolkit is installed correctly.
