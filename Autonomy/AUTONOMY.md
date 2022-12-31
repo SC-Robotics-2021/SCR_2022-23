@@ -85,7 +85,7 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 # Setting up Nvidia software and drivers for testing on a PC / Laptop
 - Need Nvidia GPU
 - Install nvidia-docker2: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
-  - If you Nvidia Isaac packages give 'cannot find nvidia runtime' error, do these commands.
+  - If you get an error 'cannot find nvidia runtime' while attempting to connect nvidia docker (ex: testing Isaac packages), do these commands.
 
         sudo apt install -y nvidia-docker2
         sudo systemctl daemon-reload
