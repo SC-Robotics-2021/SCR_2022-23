@@ -88,13 +88,13 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 - Install Nvidia cuda toolkit: https://developer.nvidia.com/cuda-toolkit
   - I do not recommend installing cuda toolkit directly from apt, I was having problems.
   - **Nvidia cuda toolkit I think also will install the nvidia driver, so you may not need to manually install driver.**
-- To manually install driver.
-  - Check for recommended driver: 
+- To manually install driver:
+  - Check for driver: 
 
         ubuntu-drivers devices
         sudo apt install nvidia-<driver number>
        
-  - Choose driver to install (I used the non-open driver because open was not letting Ubuntu shutdown correctly, and was not getting hdmi output for external screen).
+  - Use latest driver. (Recommended driver was broken for me. I used the non-open driver because open was not letting Ubuntu shutdown correctly, and was not getting hdmi output for external screen).
   - Make sure to restart after installing drivers!
 - Check these things:
   - Make sure the application 'Nvidia X Server' shows your GPU name and info.
