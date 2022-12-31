@@ -90,6 +90,8 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 
        ubuntu-drivers devices
 
+ - Install Nvidia cuda toolkit: https://developer.nvidia.com/cuda-toolkit
+ - Nvidia cuda toolkit I think also will install the nvidia driver, so you may not have to do next step.
  - Install recommended driver **OR** Choose which to install
 
        sudo ubuntu-drivers autoinstall
