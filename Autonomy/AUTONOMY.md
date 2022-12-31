@@ -82,7 +82,7 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 - [Argus Camera](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_argus_camera) Allows use and data transfer of cameras. ONLY supported by ROS2 Humble
 - [NITROS](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros) Hardware acceleration, only availible w/ ROS2 Humble
 
-# Test Nvidia Isaac packages on common PC
+# Setting up Nvidia software and drivers for testing on a PC / Laptop
 - Need Nvidia GPU
 - Install nvidia-docker2: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
 - Install Nvidia cuda toolkit: https://developer.nvidia.com/cuda-toolkit
@@ -106,4 +106,4 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
       sudo apt-get remove --purge '^nvidia-.*'
       sudo apt-get remove --purge '^libnvidia-.*'
       sudo apt-get remove --purge '^cuda-.*'
-- If you get a cmake error having to do with `Specify CUDA_TOOLKIT_ROOT_DIR`, you should not have to manually set the variable, it should work if cuda toolkit is installed correctly.
+- If you ever get a cmake error `Specify CUDA_TOOLKIT_ROOT_DIR` or having to do with `CUDA` the Nvidia driver or the cuda toolkit is probably not installed correctly.
