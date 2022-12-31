@@ -85,13 +85,13 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 # Test Nvidia Isaac packages on common PC
 - Need Nvidia GPU
 - Install nvidia-docker2: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
+- Install Nvidia cuda toolkit: https://developer.nvidia.com/cuda-toolkit
+ - Nvidia cuda toolkit I think also will install the nvidia driver, so you may not have to do next step.
 - Make sure you have updated nvidia driver 
  - Check for recommended driver: 
 
        ubuntu-drivers devices
-
- - Install Nvidia cuda toolkit: https://developer.nvidia.com/cuda-toolkit
- - Nvidia cuda toolkit I think also will install the nvidia driver, so you may not have to do next step.
+       
  - Install recommended driver **OR** Choose which to install
 
        sudo ubuntu-drivers autoinstall
