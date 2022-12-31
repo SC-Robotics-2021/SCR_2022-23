@@ -87,17 +87,15 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 - Install nvidia-docker2: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
 - Install Nvidia cuda toolkit: https://developer.nvidia.com/cuda-toolkit
   - I do not recommend installing cuda toolkit directly from apt, I was having problems.
-  - **Nvidia cuda toolkit I think also will install the nvidia driver, so you may not have to manually install driver**
-- To make sure you have updated nvidia driver 
+  - **Nvidia cuda toolkit I think also will install the nvidia driver, so you may not need to manually install driver.**
+- To manually install driver.
   - Check for recommended driver: 
 
         ubuntu-drivers devices
-       
-  - Install recommended driver **OR** Choose which to install. (I used the non-open driver because open was not letting Ubuntu shutdown correctly, and was not getting hdmi output for external screen).
-
-        sudo ubuntu-drivers autoinstall
         sudo apt install nvidia-<driver number>
-- Make sure to restart after installing drivers!
+       
+  - Choose driver to install (I used the non-open driver because open was not letting Ubuntu shutdown correctly, and was not getting hdmi output for external screen).
+  - Make sure to restart after installing drivers!
 - Check these things:
   - Make sure the application 'Nvidia X Server' shows your GPU name and info.
   - Make sure you can run `nvidia-smi` command in terminal. It should show you driver info.
