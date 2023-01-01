@@ -81,3 +81,33 @@ Need to avoid obstacles and have dynamic drive system. But generally stay on pat
 - [Apriltag](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_apriltag) Detect AprilTag images, VERY useful for rover project. ONLY supported by ROS2 Humble
 - [Argus Camera](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_argus_camera) Allows use and data transfer of cameras. ONLY supported by ROS2 Humble
 - [NITROS](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros) Hardware acceleration, only availible w/ ROS2 Humble
+
+# Setting up Nvidia software and drivers for testing on a PC / Laptop
+- Need Nvidia GPU
+- Install nvidia-docker2: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
+  - If you get an error 'cannot find nvidia runtime' while attempting to connect nvidia docker (ex: testing Isaac packages), do these commands.
+
+        sudo apt install -y nvidia-docker2
+        sudo systemctl daemon-reload
+        sudo systemctl restart docker
+  
+- Install Nvidia cuda toolkit: https://developer.nvidia.com/cuda-toolkit
+  - I do not recommend installing cuda toolkit directly from apt, I was having problems.
+  - **Nvidia cuda toolkit I think also will install the nvidia driver, so you may not need to manually install driver.**
+- To manually install driver:
+  - Check for driver: 
+
+        ubuntu-drivers devices
+        sudo apt install nvidia-<driver number>
+       
+  - Use latest driver. (Recommended driver was broken for me. I used the non-open driver because open was not letting Ubuntu shutdown correctly, and was not getting hdmi output for external screen).
+  - Make sure to restart after installing drivers!
+- Check these things:
+  - Make sure the application 'Nvidia X Server' shows your GPU name and info.
+  - Make sure you can run `nvidia-smi` command in terminal. It should show you driver info.
+- If you are in a situation where you need to remove all nvidia drivers and tools, run these commands, then reboot:
+
+      sudo apt-get remove --purge '^nvidia-.*'
+      sudo apt-get remove --purge '^libnvidia-.*'
+      sudo apt-get remove --purge '^cuda-.*'
+- If you ever get a cmake error `Specify CUDA_TOOLKIT_ROOT_DIR` or having to do with `CUDA`, the Nvidia driver or the cuda toolkit is probably not installed correctly.
