@@ -16,6 +16,9 @@
 - [NVIDIA ROS2 Jetson](https://nvidia-ai-iot.github.io/ros2_jetson/)
 - [Latest ZED ROS2 Wrapper](https://github.com/stereolabs/zed-ros2-wrapper)
 - [Isaac SDK Documentation](https://docs.nvidia.com/isaac/doc/index.html)
+- [Quixel Megascans](https://quixel.com/megascans/home)
+- [Writing a simple Ros2 pub/sub](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html#)
+- [Nvidia Isaac Ros Repos](https://github.com/NVIDIA-ISAAC-ROS)
 
 ## New System Notes
 - [Software and Hardware Stack Compatibility Matrix](https://docs.google.com/spreadsheets/d/1t-nCCwkkZQgr5q8uTV1uusqkHtPhM9K14CyHfFUXnlk/edit?usp=sharing)
@@ -25,7 +28,7 @@
 - https://developer.nvidia.com/cuda-downloads
 
 ## ROS2
-- Using ROS2 Architecture and Python to speak with Raspberry Pis and other sensors.
+- Using ROS2 Architecture and Python to speak with cameras and other sensors / hardware.
 - Using ROS2 version: Humble.
 
 ## On-board Computer
@@ -37,7 +40,7 @@
 
 ## Stereo Camera
 - Model: Stereolabs Zed2i
-- Allows for depth perception, imu, temperature sensors, gyro.
+- Allows for depth perception, IMU, barometer, magnetometer.
 - Out model does not have polarized lens.
 
 ## Nvidia Isaac Ros Packages
@@ -46,25 +49,16 @@
 - Packages in-use:
   - [Isaac Ros Visual SLAM](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam)
   - [Isaac Ros Proximity Segmentation](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_proximity_segmentation)
-  - ...
 
 ## GPS
 - (List GPS Name)
 
-### Lidar
+## Lidar
 - RPLidar (Find full name)
 - Measures distances around the sensor.
 
-### Raspberry Pis
-- Mini computer.
-- Have a Pi for each system to easily swap out if breaks.
-- OS: Ubuntu Server or Raspberry Pi OS (Raspbian). (Depending on use of Pi)
-
-# Autonomy Goal Notes:
-Rover will have a starting gps coordinate.
-Rover to move to given gps coordinate.
-Read AR codes along path to find next gps coordinates.
-Need to avoid obstacles and have dynamic drive system. But generally stay on path to next gps coordinate.
+## Autonomy Goal Notes
+- 
 
 
 
