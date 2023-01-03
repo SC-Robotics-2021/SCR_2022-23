@@ -1,11 +1,13 @@
-# Previous Systems
+# Autonomy Documentation
+
+## Previous Systems
 - [Previous project board](https://github.com/orgs/SC-Robotics-2021/projects/5)
 - [osiris hardware](https://github.com/SC-Robotics-2021/osiris_hardware)
 - [osiris_autonomy](https://github.com/SC-Robotics-2021/osiris_autonomy)
-- [ ] [Josh's legacy Valk's documentation on General System and Performances](https://github.com/SC-Robotics-2021/systems_documentation/tree/master/valkyrie_src)
-- [ ] [Osiris's documentation and System](https://github.com/SC-Robotics-2021/systems_documentation/tree/master/osiris_src)
+- [Josh's legacy Valk's documentation on General System and Performances](https://github.com/SC-Robotics-2021/systems_documentation/tree/master/valkyrie_src)
+- [Osiris's documentation and System](https://github.com/SC-Robotics-2021/systems_documentation/tree/master/osiris_src)
 
-# Stuff to Look Into For New System
+## Useful Links
 - [NVIDIA Isaac AMR Platform](https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/autonomous-mobile-robots/)
 - [NVIDIA Isaac ROS](https://developer.nvidia.com/isaac-ros)
 - [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac-sim)
@@ -13,15 +15,15 @@
 - [NVIDIA Jetpack for Xavier](https://developer.nvidia.com/embedded/jetpack)
 - [NVIDIA ROS2 Jetson](https://nvidia-ai-iot.github.io/ros2_jetson/)
 - [Latest ZED ROS2 Wrapper](https://github.com/stereolabs/zed-ros2-wrapper)
-- PID Loop
-- QR code -> OpenCV -> croods -> vectors (nav2)
-- SLAM and VSLAM
+- [Isaac SDK Documentation](https://docs.nvidia.com/isaac/doc/index.html)
 
-# New System Notes
--[Software and Hardware Stack Compatibility Matrix](https://docs.google.com/spreadsheets/d/1t-nCCwkkZQgr5q8uTV1uusqkHtPhM9K14CyHfFUXnlk/edit?usp=sharing)
+## New System Notes
+- [Software and Hardware Stack Compatibility Matrix](https://docs.google.com/spreadsheets/d/1t-nCCwkkZQgr5q8uTV1uusqkHtPhM9K14CyHfFUXnlk/edit?usp=sharing)
+
 ## Temp software list for NVIDIA ISAAC ROS
- - https://github.com/NVIDIA/nvidia-docker
- - https://developer.nvidia.com/cuda-downloads
+- https://github.com/NVIDIA/nvidia-docker
+- https://developer.nvidia.com/cuda-downloads
+- 
 ### ROS2
 - Using ROS2 Architecture and Python to speak with Raspberry Pis and other sensors.
 - Using ROS2: Humble.
