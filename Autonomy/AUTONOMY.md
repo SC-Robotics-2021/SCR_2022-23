@@ -23,25 +23,38 @@
 ## Temp software list for NVIDIA ISAAC ROS
 - https://github.com/NVIDIA/nvidia-docker
 - https://developer.nvidia.com/cuda-downloads
-- 
-### ROS2
+
+## ROS2
 - Using ROS2 Architecture and Python to speak with Raspberry Pis and other sensors.
-- Using ROS2: Humble.
-### NVIDIA Jetson
-- NVIDIA Jetson: Embedded computing board designed for AI computations. (Current: NVIDIA Jetson AGX Orin)
+- Using ROS2 version: Humble.
+
+## On-board Computer
+- Model: NVIDIA Jetson AGX Orin 32 GB
+- NVIDIA Jetson: Embedded computing board designed for AI computations and robotics.
+- Our Dev Kit: 
 - NVIDIA Jetpack: SDK for development.
 - NVIDIA Jetson Linux: OS for Jetson.
-### ZED Camera
-- Stereolabs ZED2i camera: Depth camera, has IMU and gyro.
-### Intel RealSense Camera
-- (Full Camera Name): Depth camera, (list sensors).
-### NVIDIA ISAAC ROS2 Autonomy Packages
-- Packages to help with autonomy. AprilTags, VSLAM, etc.
-### GPS
+
+## Stereo Camera
+- Model: Stereolabs Zed2i
+- Allows for depth perception, imu, temperature sensors, gyro.
+- Out model does not have polarized lens.
+
+## Nvidia Isaac Ros Packages
+- [Isaac Ros Repos](https://github.com/NVIDIA-ISAAC-ROS)
+- Ros2 packages to help with autonomy.
+- Packages in-use:
+  - [Isaac Ros Visual SLAM](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam)
+  - [Isaac Ros Proximity Segmentation](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_proximity_segmentation)
+  - ...
+
+## GPS
 - (List GPS Name)
+
 ### Lidar
 - RPLidar (Find full name)
 - Measures distances around the sensor.
+
 ### Raspberry Pis
 - Mini computer.
 - Have a Pi for each system to easily swap out if breaks.
