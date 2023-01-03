@@ -12,7 +12,7 @@
 - [NVIDIA Isaac ROS](https://developer.nvidia.com/isaac-ros)
 - [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac-sim)
 - [NVIDIA Keynote](https://youtu.be/PWcNlRI00jo)
-- [NVIDIA Jetpack for Xavier](https://developer.nvidia.com/embedded/jetpack)
+- [NVIDIA Jetpack](https://developer.nvidia.com/embedded/jetpack)
 - [NVIDIA ROS2 Jetson](https://nvidia-ai-iot.github.io/ros2_jetson/)
 - [Latest ZED ROS2 Wrapper](https://github.com/stereolabs/zed-ros2-wrapper)
 - [Isaac SDK Documentation](https://docs.nvidia.com/isaac/doc/index.html)
@@ -56,14 +56,6 @@
 ## Lidar
 - RPLidar (Find full name)
 - Measures distances around the sensor.
-
-## Autonomy Goal Notes
-- 
-
-
-
-# Comments
-- Osiris's implementation was with using ros2 while Valk's system was a bit barebone. Need to investigate and integrate both systems into 1 or start fresh.
 
 # Steps to set up Jetson AGX Xavier for Autonomy
 ### The following instructions are to be completed on an x86 computer w/ ubuntu 16.04,18.04, or 20.04
