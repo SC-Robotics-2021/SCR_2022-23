@@ -3,7 +3,7 @@
 - We gave **2 communication systems** on the rover, ``2.4 GHz`` for small data and long ranges *(instructions/commands)*, and ``5 GHz`` for larger data and short ranges *(mainly Zed2 camera feed)*.
 <br/>
 
-- You'll need 3 antennas/*Rocket M3* & Raspberry Pi 4B which act as a gateway: Base station; Pi, 2.4 GHz, and 5 GHz will be mounted on the rover.
+- You'll need 3 antennas (total) & Raspberry Pi 4B which act as a gateway: Base station; Pi, 2.4 GHz, and 5 GHz will be mounted on the rover.
     + Base station is where you'll have your machine hooked up to the base anntena, and attempt to connect to the 2 rover's antennas through the Raspberry Pi (Ymir).
     + Your machine should be able to connect to either antenna, and send/receive data/instructions to Ymir.
     + **Ymir's static ip address:** `192.168.1.120` (you can change this if you want)
@@ -28,6 +28,7 @@
     + `password`: `rpi_rover123`
 
 - **Rocket M5 (base station for 5):**
+    + *TBD*
     
 - **ALL Rocket M3:** 
     + `username`: `ubnt`

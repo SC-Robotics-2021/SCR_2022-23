@@ -1,5 +1,5 @@
 # Base Station & Antenna Setup
-## Setup for Rocket M3 Base Station & Antenna
+## Setup for Rocket M3/Rocket M5 Base Station & Antenna
 Set up antennas on the rover / base station
 - First login Rocket M3, airOs, and set up the antennas.
 ![](../img/loginRocket.png)
@@ -54,7 +54,8 @@ Set up antennas on the rover / base station
 ----------------
 ## Setup for 2.4 GHz Bullet ACIP67
 
-
+***NEEDS TO UPDATE***;
+SEE JASPER, JADE, or AUSTIN FOR DETAILS
 
 <br/><br/>
 

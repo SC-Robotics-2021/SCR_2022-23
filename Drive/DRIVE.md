@@ -1,4 +1,7 @@
-# Drive 2022-2023
+# [Drive 2022-2023](https://github.com/SC-Robotics-2021/drive_2022_23)
+Ask Jasper, Max, Sierra or Matin for general set-up and more info. Documentation is quite outdated.
+
+<br>
 
 # ODrive
 - ESC -> electronic speed controller

@@ -1,4 +1,8 @@
-# Hardware used in SCR 2022-23 Telecom:
+# Hardware used in SCR 2022-23 Telecom [OUTDATED]:
+## SEE JASPER FOR DETAILS
+
+<br>
+
 - **[ 1x ]** [Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) `will be used as the gateway`
     + *Flashed with [Raspberry Pi OS (64-bit) - Port of Debian Bullseye](https://www.raspberrypi.com/software/)*
     + *Check [Software/Dependencies Requirements](Software&Dependencies.md) for more info*
